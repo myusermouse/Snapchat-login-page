@@ -23,7 +23,7 @@ loginBtn.onclick = function() {
     closeEye.addEventListener('click',()=>{
         if (passIn.type = "password") {
             passIn.type = "text";
-            closeEye.src = "/image/open-eye.png";
+            closeEye.src = "./image/open-eye.png";
         } else {
             passIn.type = "password";
         }
